@@ -8,6 +8,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.ArrayList;
 
+/*
+ * localhost:8080 ==> foutmelding
+ * GET localhost:8080 + header: key = SM_USER, value =  'demo' ==> welcome
+ * GET localhost:8080/users + header: key = SM_USER, value =  'demo' ==> welcome
+ */
+
 @Controller
 @RequestMapping("/users")
 public class DemoController
